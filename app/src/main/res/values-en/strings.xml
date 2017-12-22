@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Bro\'s Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Create a note</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="idea_checkbox">Idea</string>
+    <string name="important_checkbox">Important</string>
+    <string name="todo_checkbox">Todo</string>
+    <string name="cancel_button">Nope</string>
+    <string name="ok_button">OK</string>
+    <string name="sound_checkbox">Eargasm</string>
+    <string name="settings_title">Settings</string>
+    <string name="sound_title">Sound Effects</string>
+    <string name="anims_title">Animation Speed</string>
+    <string name="rb_fast">Godspeed bro!</string>
+    <string name="rb_slow">Take it easy bro</string>
+    <string name="rb_none">No motivation in life</string>
+    <string name="title_activity_layar_utama">First Layer</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_tentang">About</string>
+    <string name="content_tentang">
+        What could it do?\n1. Long press for edit and delete note\n2. An important note will automatically be on top\n3. Set your animation for each note\n4. Listen to cool sound effects\n5. Wait for more surprises!\n
+    </string>
+    <string name="no_item">
+        Do you think your head can remember it all?\nCreate a new note and give your head a break!
+    </string>
+    <string name="copyright">
+        Copyright (c) 2017 I Komang Sena Aji Buwana\nAll rights reserved\nwww.iksena.xyz
+    </string>
+</resources>

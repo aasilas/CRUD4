@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        tools:text="Titulo" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/editTitle"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textMultiLine|textLongMessage"
+
+                android:lines="5"
+                tools:text="Descrição" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/cbIdea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTitle"
+
+        android:layout_below="@+id/scrollView"
+        android:layout_marginTop="23dp"
+        tools:text="Uma ideia apenas" />
+
+    <CheckBox
+        android:id="@+id/cbTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cbIdea"
+        android:layout_alignStart="@+id/cbIdea"
+        android:layout_below="@+id/cbIdea"
+        android:layout_marginTop="15dp"
+        tools:text="Para trabaçhar mais tarde" />
+
+    <CheckBox
+        android:id="@+id/cbImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cbTodo"
+        android:layout_alignStart="@+id/cbTodo"
+        android:layout_below="@+id/cbTodo"
+        android:layout_marginTop="15dp"
+        tools:text="Importante" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cbImportant"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        tools:text="OK" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/btnOK"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        tools:text="Restaurar" />
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/ic_warning_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageViewTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewImportant"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/ic_check_box_outline_blank_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageViewIdea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageViewTodo"
+        android:layout_toRightOf="@+id/imageViewTodo"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/ic_wb_incandescent_black_24dp" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="35dp"
+        android:text="Titulo"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/scrollDesc"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/txtTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:autoLink="all"
+                android:text="Descicao"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/scrollDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        tools:text="OK" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Catatan Si Bro</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_add">Buat nota</string>
+    <string name="title_hint">Judul</string>
+    <string name="description_hint">Deskripsi</string>
+    <string name="idea_checkbox">Sekedar ide</string>
+    <string name="important_checkbox">Penting nih!</string>
+    <string name="todo_checkbox">Untuk dikerjakan nanti</string>
+    <string name="cancel_button">Gajadi deh</string>
+    <string name="ok_button">OKE OCE</string>
+    <string name="sound_checkbox">Bunyi</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="sound_title">Suara</string>
+    <string name="anims_title">Kecepatan animasi</string>
+    <string name="rb_fast">Cepet banget bro!</string>
+    <string name="rb_slow">Santai bro kaya di pantai</string>
+    <string name="rb_none">Ga ada</string>
+    <string name="title_activity_layar_utama">LayarUtama</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="content_tentang">
+        Bisa apa aja sih?\n1. Long press untuk edit dan hapus\n2. Catatan penting secara otomatis akan berada di atas nota lain\n3. Atur animasi untuk setiap catatanmu\n4. Dengarkan efek suara yang seru\n5. Wait for more surprises!\n
+    </string>
+    <string name="no_item">
+        Do you think your head can remember it all?\nCreate a new note and give your head a break!
+    </string>
+    <string name="copyright">
+        Copyright (c) 2017 I Komang Sena Aji Buwana\nAll rights reserved\nwww.iksena.xyz
+    </string>
+</resources>
